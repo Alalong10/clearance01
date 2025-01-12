@@ -1,0 +1,28 @@
+body.authentication-bg{
+    background: var(--ct-light);
+}
+.login-toggle{
+    border-radius: 24px!important;
+    cursor: pointer;
+}
+.login-toggle:hover,
+.login-toggle.active{
+    background: var(--ct-primary);
+    color: #fff;
+}
+body .pagination{
+    gap: 8px;
+}
+body .pagination .disabled a{
+    opacity: .7;
+    cursor: default;
+}
+body .pagination .disabled a:hover{
+    color: var(--ct-link-color)!important;
+}
+.topnav-menu li{
+    position: relative;
+}
+.topnav-menu li .waves-effect{
+    position: unset!important;
+}
